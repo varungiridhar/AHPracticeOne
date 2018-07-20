@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68498F3421025BEC00E9BDC8 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68498F3321025BEC00E9BDC8 /* GalleryViewController.swift */; };
+		687007B121004E5E003F27CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687007B021004E5E003F27CF /* AppDelegate.swift */; };
+		687007B321004E5E003F27CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687007B221004E5E003F27CF /* ViewController.swift */; };
+		687007B621004E5E003F27CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687007B421004E5E003F27CF /* Main.storyboard */; };
+		687007B821004E5F003F27CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687007B721004E5F003F27CF /* Assets.xcassets */; };
+		687007BB21004E5F003F27CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 687007B921004E5F003F27CF /* LaunchScreen.storyboard */; };
+		687007C321005233003F27CF /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 687007C221005233003F27CF /* tessdata */; };
+		994E9B50A5E74117A6B45885 /* Pods_AHPracticeOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8536276A812238B0C6239E4 /* Pods_AHPracticeOne.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51074AE84C32367D7E225D83 /* Pods-AHPracticeOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHPracticeOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-AHPracticeOne/Pods-AHPracticeOne.release.xcconfig"; sourceTree = "<group>"; };
+		68498F3321025BEC00E9BDC8 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		687007AD21004E5E003F27CF /* AHPracticeOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHPracticeOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		687007B021004E5E003F27CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		687007B221004E5E003F27CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		687007B521004E5E003F27CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		687007B721004E5F003F27CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		687007BA21004E5F003F27CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		687007BC21004E5F003F27CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687007C221005233003F27CF /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		C8536276A812238B0C6239E4 /* Pods_AHPracticeOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHPracticeOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D070452E11BCD1C2B6D923A9 /* Pods-AHPracticeOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHPracticeOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AHPracticeOne/Pods-AHPracticeOne.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		687007AA21004E5E003F27CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994E9B50A5E74117A6B45885 /* Pods_AHPracticeOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		687007A421004E5E003F27CF = {
+			isa = PBXGroup;
+			children = (
+				687007AF21004E5E003F27CF /* AHPracticeOne */,
+				687007AE21004E5E003F27CF /* Products */,
+				B3F31AB77833F29F2D9E929A /* Pods */,
+				C8A60BF40BDBFB6D375A737F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		687007AE21004E5E003F27CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				687007AD21004E5E003F27CF /* AHPracticeOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		687007AF21004E5E003F27CF /* AHPracticeOne */ = {
+			isa = PBXGroup;
+			children = (
+				687007C221005233003F27CF /* tessdata */,
+				687007B021004E5E003F27CF /* AppDelegate.swift */,
+				687007B221004E5E003F27CF /* ViewController.swift */,
+				687007B421004E5E003F27CF /* Main.storyboard */,
+				687007B721004E5F003F27CF /* Assets.xcassets */,
+				687007B921004E5F003F27CF /* LaunchScreen.storyboard */,
+				687007BC21004E5F003F27CF /* Info.plist */,
+				68498F3321025BEC00E9BDC8 /* GalleryViewController.swift */,
+			);
+			path = AHPracticeOne;
+			sourceTree = "<group>";
+		};
+		B3F31AB77833F29F2D9E929A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D070452E11BCD1C2B6D923A9 /* Pods-AHPracticeOne.debug.xcconfig */,
+				51074AE84C32367D7E225D83 /* Pods-AHPracticeOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8A60BF40BDBFB6D375A737F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8536276A812238B0C6239E4 /* Pods_AHPracticeOne.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		687007AC21004E5E003F27CF /* AHPracticeOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687007BF21004E5F003F27CF /* Build configuration list for PBXNativeTarget "AHPracticeOne" */;
+			buildPhases = (
+				CEDA2DE5AB9174E124168C34 /* [CP] Check Pods Manifest.lock */,
+				687007A921004E5E003F27CF /* Sources */,
+				687007AA21004E5E003F27CF /* Frameworks */,
+				687007AB21004E5E003F27CF /* Resources */,
+				509DFDA30DBAA694131D6559 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHPracticeOne;
+			productName = AHPracticeOne;
+			productReference = 687007AD21004E5E003F27CF /* AHPracticeOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687007A521004E5E003F27CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Varun Giridhar";
+				TargetAttributes = {
+					687007AC21004E5E003F27CF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 687007A821004E5E003F27CF /* Build configuration list for PBXProject "AHPracticeOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 687007A421004E5E003F27CF;
+			productRefGroup = 687007AE21004E5E003F27CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				687007AC21004E5E003F27CF /* AHPracticeOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		687007AB21004E5E003F27CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				687007BB21004E5F003F27CF /* LaunchScreen.storyboard in Resources */,
+				687007C321005233003F27CF /* tessdata in Resources */,
+				687007B821004E5F003F27CF /* Assets.xcassets in Resources */,
+				687007B621004E5E003F27CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		509DFDA30DBAA694131D6559 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AHPracticeOne/Pods-AHPracticeOne-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AHPracticeOne/Pods-AHPracticeOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEDA2DE5AB9174E124168C34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHPracticeOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		687007A921004E5E003F27CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68498F3421025BEC00E9BDC8 /* GalleryViewController.swift in Sources */,
+				687007B321004E5E003F27CF /* ViewController.swift in Sources */,
+				687007B121004E5E003F27CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		687007B421004E5E003F27CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687007B521004E5E003F27CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		687007B921004E5F003F27CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687007BA21004E5F003F27CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		687007BD21004E5F003F27CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		687007BE21004E5F003F27CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		687007C021004E5F003F27CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D070452E11BCD1C2B6D923A9 /* Pods-AHPracticeOne.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHPracticeOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eva.AHPracticeOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		687007C121004E5F003F27CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51074AE84C32367D7E225D83 /* Pods-AHPracticeOne.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AHPracticeOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eva.AHPracticeOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		687007A821004E5E003F27CF /* Build configuration list for PBXProject "AHPracticeOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687007BD21004E5F003F27CF /* Debug */,
+				687007BE21004E5F003F27CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687007BF21004E5F003F27CF /* Build configuration list for PBXNativeTarget "AHPracticeOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				687007C021004E5F003F27CF /* Debug */,
+				687007C121004E5F003F27CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687007A521004E5E003F27CF /* Project object */;
+}
